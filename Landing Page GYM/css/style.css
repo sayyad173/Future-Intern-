@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#navbar {
+    /* background-color: rgb(255, 123, 0); */
+    /* border: 2px solid black; */
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    padding: 8px 0px;
+    z-index: 2;
+
+
+
+}
+
+ul {
+    padding: 8px 2px;
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+#navbar ul img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    right: 70px;
+    
+}
+
+ul li {
+    padding: 24px 18px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+
+ul li a:hover {
+    color: rgb(241, 155, 43);
+    /* background-color: rgb(255, 153, 0); */
+}
+
+/* font  "Open Sans", */
+
+/* home  */
+#home {
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background: url(/img/bg.jpg) no-repeat center center/cover; */
+
+}
+
+#home::before {
+    content: "";
+    background: url(../img/bg.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    /* margin: 2px; */
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.home {
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 50%;
+    position: relative;
+    top: 8rem;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.home-para {
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 50%;
+    /* color: white; */
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.home-para h6 {
+    font-size: 1.2rem;
+}
+
+.home-para p,
+span {
+    font-size: 4.5rem;
+}
+
+.home-para span {
+    color: rgb(255, 157, 0);
+}
+
+#main-btn {
+    font-size: 0.9rem;
+    padding: 10px;
+    background-color: rgb(255, 157, 0);
+    color: white;
+    border: none;
+}
+
+/* about section */
+#about {
+    height: 90vh;
+    position: relative;
+    top: 0px;
+    /* border: 2px solid black; */
+    background-color: rgba(8, 8, 8, 0.929);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.box {
+    /* border: 2px solid wheat; */
+    width: 100%;
+    height: 30%;
+    color: white;
+
+}
+
+.box h5 {
+    /* border: 2px solid white; */
+    color: rgb(255, 157, 0);
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: 1rem;
+
+}
+
+.box h3 {
+    /* border: 2px solid white; */
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 2rem;
+}
+
+.box-secondary {
+    /* border: 2px solid white; */
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-secondary .info-box {
+    /* border: 2px solid white; */
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-box .img-logo {
+    /* height: 50px; */
+    width: 40%;
+    border-radius: 50%;
+    aspect-ratio: 2/2;
+    object-fit: contain;
+    background-color: orangered;
+
+}
+
+.info-box p {
+    text-align: center;
+    color: white;
+    margin: 4px 0px;
+    padding: 0px 18px;
+}
+
+.info-box h4 {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin: 6px 0px;
+    font-weight: bold;
+    color: white;
+}
+
+/* classes section  */
+#classes {
+    /* border: 2px solid black; */
+    background-color: rgba(36, 36, 36, 0.929);
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.classes {
+    /* border: 2px solid black ; */
+    height: 800px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clss-box {
+
+    height: 250px;
+    width: 350px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.classes h5 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 1rem;
+    color: rgb(255, 157, 0);
+    font-family: sans-serif;
+}
+
+.classes h3 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.cls-box {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+
+.clsss-box img {
+    width: 500px;
+    margin: 0px 0px 0px 10px;
+}
+
+.cls-para {
+    background-color: rgb(249, 236, 236);
+    width: 100%;
+    height: 70px;
+    position: relative;
+    top: 70px;
+    ;
+}
+/* APPOINTMENT SECTION  */
+#appoint{
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#appoint::before{
+    content: "";
+    background: url(/img/banner.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 138.8rem;
+
+    left: 0px;
+    height: 70vh;
+    width: 100%; 
+
+    /* opacity: 0.7; */
+    z-index: -1 ;
+}
+.appoint-info{
+    /* border: 2px solid black; */
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+.appoint-info h2{
+   font-size: 3rem;
+   font-weight: bold;
+   color: white;
+    
+}
+.appoint-info h4{
+   font-size: 2rem;
+   font-weight: bold;
+   color: rgb(172, 170, 170);
+    
+}
+#appoint-btn{
+    font-size: 1rem;
+    padding: 10px 18px;
+    position: relative;
+    top: 2rem;
+    color: white;
+    background: none;
+    border: 2px solid rgb(247, 158, 85);
+
+}
+/* PLAN  */
+#plan{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plan{
+    height: 85vh;
+    width: 90%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#plan h5{
+    color: rgb(205, 135, 65);
+    font-size: 1rem;
+}
+#plan h2{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+.plan-box h4{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 10px 0px;
+}
+.plan-box{
+    height: 500px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding:  20px 20px;
+
+}
+
+.plan-box span{
+    font-size: 2.4rem;
+    padding: 0px 0px;
+    font-weight: bold;
+    color: rgb(238, 129, 41);
+
+}
+.plan-box p{
+    padding: 0px 60px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+
+.btn-enroll{
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 15px 20px;
+    width: 90%;
+    margin: 10px 0px;
+    background-color: rgb(61, 60, 60);
+    border: none;
+    color: white;
+}
+.btn-enroll:hover{
+ background-color: rgb(238, 129, 41);
+}
+/* contact  */
+#contact{
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 23, 23);
+}
+.contact{
+    width: 80%;
+    height: 180px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.contact-box{
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-box img{
+  height: 60px;
+  width: 60px;
+}
+.contact-box span{
+  font-size: 18px;
+  color: white;
+
+}
+/* footer  */
+footer{
+    width: 100%;
+    height: 400px;
+    /* border: 2px solid black; */
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.footer{
+    /* border: 2px solid white; */
+    height: 300px;
+    width: 90%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.footer img{
+    height: 200px;
+    width: 200px;
+}
+.footer p{
+    color: white;
+    padding: 0px 160px;
+    text-align: center;
+}
+.center{
+    color: white;
+
+}

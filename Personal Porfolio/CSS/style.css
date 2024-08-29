@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 1, 40);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+main hr {
+
+    border: 0;
+    height: 1px;
+    margin: 10px 96px;
+    background-color: rgb(113, 85, 168);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(28, 28, 62);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 14px 0px;
+}
+
+nav ul li {
+    display: flex;
+    padding: 18px 18px;
+    font-size: 18px;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(123, 139, 221);
+    font-size: 19px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10vh 0px;
+
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    margin: 60px 0;
+    font-size: 2.5rem;
+}
+.btn-box{
+    position: absolute;
+    width: 50px;
+    left: 9%;
+
+    top: 70%;
+}
+.btn{
+    color: white;
+    font-size: 18px;
+}
+.btn:hover{
+    color: rgb(118, 115, 115);
+    font-size: 18px;
+}
+
+.rightSection img {
+    width: 60%;
+    margin-top: 125px;
+    border-radius:  2290px;
+}
+
+.purpal {
+    color: rgb(135, 90, 176);
+}
+
+#element {
+    color: rgb(92, 64, 119);
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection .box {
+    background-color: white;
+    height: 1px;
+    margin: 88px 24px;
+    display: flex;
+
+}
+
+.vartical {
+    height: 60px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.text-gray {
+
+    color: rgb(174, 134, 212);
+}
+
+.top-image {
+    width: 53px;
+    position: relative;
+    z-index: -1;
+    top: -60px;
+    left: -22px;
+    aspect-ratio: 2/2;
+    object-fit: contain;
+
+}
+
+.vartical-title {
+    position: relative;
+    z-index: -1;
+    top: 1px;
+    width: 130px;
+    left: -13px;
+
+    object-fit: contain;
+}
+
+.vartical-desc {
+    width: 150px;
+    z-index: -1;
+    top: 2px;
+    position: relative;
+    left: -75px;
+    font-size: 10px;
+    color: rgb(134, 104, 183);
+
+}
+
+.bootstrap,
+.react {
+    position: relative;
+    left: -35px;
+}
+.project-title{
+    position: relative;
+    z-index: -1;
+}
+
+/* Third Section  */
+.project-title{
+    position: relative;
+    left: 150px;
+    width: 100px;
+    font-size: 38px;
+}
+.third-section {
+    display: flex;
+ width: 100%;
+    height: 444px;
+   
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    height: 300px;
+    width: 290px;
+ position: relative;
+ z-index: -1;
+    background-color: rgb(1, 1, 40);
+}
+
+.card img {
+    z-index: -1;
+    height: 120px;
+    width: 220px;
+    position: relative;
+    left: 40px;
+    top: 5px;
+    
+}
+
+.card .btn {
+    position: relative;
+    top: 10px;
+ 
+    left: 40px;
+    font-size: 10px;
+    padding: 2px 6px;
+    width: 25%;
+}
+
+.card p {
+    font-size: 12px;
+    padding: 18px 32px;
+    color: rgb(92, 90, 149);
+}
+
+.card-title {
+    color: white;
+    top: 12px;
+    position: relative;
+    left: 42px;
+    font-size: 12px;
+}
+
+/* Footer Section  */
+
+footer {
+    background-color: rgb(43, 29, 88);
+    height: 322px;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.footer-first {
+    width: 25%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-first input,
+textarea {
+    width: 35%;
+    display: inline-block;
+    padding: 12px;
+    margin: 2px 12px;
+    border: none;
+}
+
+input[type="email"] {
+    width: 84%;
+    /* margin: 12px; */
+}
+
+textarea {
+    width: 84%;
+    display: block;
+}
+
+input[type="submit"] {
+    position: relative;
+    left: 2px;
+
+    font-size: 16px;
+    padding: 2px 0;
+    width: 25%;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(128, 121, 189);
+    color: white;
+}
+
+.footer-second {
+    width: 25%;
+
+}
+
+.footer-third {
+    width: 25%;
+
+}
+
+.footer-forth {
+    width: 20%;
+    position: relative;
+    right: 20px;
+
+}
+
+.footer-second {
+    /* border: 1px solid white; */
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-second ul {
+    /* border: 1px solid white; */
+    list-style: none;
+
+
+}
+
+.footer-second ul li {
+    padding: 12px 0;
+    text-decoration: none;
+}
+
+.footer-second ul li a {
+    color: rgb(174, 172, 197);
+    text-decoration: none;
+}
+
+.footer-second ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
